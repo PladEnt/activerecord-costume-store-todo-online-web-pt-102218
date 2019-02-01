@@ -1,3 +1,2 @@
-# Create your HauntedHouse class her
-class Haunted_house ActiveRecord::Migration
+class CostumeStore < ActiveRecord::Base
 end
