@@ -1,4 +1,6 @@
 # Create your Costume class here
 # It should inherit from ActiveRecord::Base
-class Costume ActiveRecord::Migratio
+class Costume ActiveRecord::Migration
+  def change
+  end
 end
