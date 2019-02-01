@@ -8,8 +8,10 @@
 # In this change method, create columns with the correct names and 
 # value types according to the spec
 class CreateCostumes < ActiveRecord::Migration
-  create_table :dogs do |t|
-    t.string :name
-    t.integer :price
+  def create
+    create_table :dogs do |t|
+      t.string :name
+      t.integer :price
+    end
   end
 end
